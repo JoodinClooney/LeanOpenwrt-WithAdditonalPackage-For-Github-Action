@@ -25,8 +25,8 @@ Target Images ---> (160) Root filesystem partition size (in MB)         #默认�
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
-#add additional package
+#add additional package in diy-part2.sh
 git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
 
-#Modify default IP
+#Modify default IP in diy-part2.sh
 sed -i 's/192.168.1.1/192.168.10.5/g' package/base-files/files/bin/config_generate
