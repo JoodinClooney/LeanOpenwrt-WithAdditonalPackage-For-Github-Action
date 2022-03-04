@@ -11,8 +11,7 @@
 #
 #
 # 添加额外软件包
-svn co https://github.com/jerrykuku/lua-maxminddb/trunk package/lua-maxminddb
-svn co https://github.com/jerrykuku/luci-app-vssr/trunk package/luci-app-vssr
+git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
 #
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.10.5/g' package/base-files/files/bin/config_generate
