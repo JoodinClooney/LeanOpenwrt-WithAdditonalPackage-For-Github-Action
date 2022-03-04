@@ -11,6 +11,7 @@
 #
 #
 # 添加额外软件包
+git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
 git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
 #
 # Modify default IP
