@@ -5,7 +5,6 @@ src-git passwall https://github.com/xiaorouji/openwrt-passwall
 
 # 2. Download source code locally
 cd /lede/package/lean/
-git clone https://github.com/jerrykuku/lua-maxminddb.git
 git clone https://github.com/jerrykuku/luci-app-vssr.git 
 
 # 3. Second Time Compile locally
